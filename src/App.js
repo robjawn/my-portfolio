@@ -18,7 +18,7 @@ function App() {
       <Projects />
       <Skills />
       <Resume />
-      <Footer />
+      <Contact />
     </main>
   );
 }

@@ -31,7 +31,7 @@ function About() {
               <img
                 className="object-scale-down object-center rounded-full"
                 alt="me"
-                src="https://i.imgur.com/as5tkW1.jpg"
+                src=""
               />
             </div>
           </div>

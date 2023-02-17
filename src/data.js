@@ -21,14 +21,14 @@ export const projects = [
       description:
         "A work in progress wiki for ancient mythology, built with Express and MongoDB.",
       image: "https://camo.githubusercontent.com/e9bc6cd60fd2a99629ff745fb7eac8e474264803c20ed1d19dec454dd088fa5d/68747470733a2f2f692e696d6775722e636f6d2f584e77736b7a582e6a7067",
-      link: "https://jsbootcamp.com",
+      link: "https://myth-wiki.herokuapp.com/",
     },
     {
       title: "Call Me Maybe",
       subtitle: "JQuery",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum?",
+        "An application for validating phone numbers using a Phone Number Validation and Verification API.",
       image: "https://camo.githubusercontent.com/277cbb6936938e3dbf612d43a90aebdcc91283dacdee021ec041b166f72f230e/68747470733a2f2f692e696d6775722e636f6d2f6c683551706b452e706e67",
-      link: "https://pythonbootcamp.com",
+      link: "https://robjawn.github.io/Phone-Validation-and-Verification-App/",
     },
   ];
