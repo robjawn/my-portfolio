@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 import './App.css';
 import './index.css';
 
@@ -17,7 +18,7 @@ function App() {
       <Projects />
       <Skills />
       <Resume />
-      <Contact />
+      <Footer />
     </main>
   );
 }
