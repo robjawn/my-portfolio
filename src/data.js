@@ -32,3 +32,7 @@ export const projects = [
       link: "https://robjawn.github.io/Phone-Validation-and-Verification-App/",
     },
   ];
+
+  export const skills = [
+   "Front End Development", "Back End Development", "JavaScript", "HTML", "CSS (Bootstrap, Tailwind)", "Node.js", "React", "Django"
+  ]
