@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function Contact() {
+function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
@@ -51,7 +51,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed pr-9">
+              <a className="text-indigo-400 leading-relaxed pr-9 mr-9">
                 robljohn1998@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -118,3 +118,5 @@ export default function Contact() {
     </section>
   );
 }
+
+export default Contact
