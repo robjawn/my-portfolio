@@ -29,7 +29,7 @@ function About() {
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
               <img
-                className="object-scale-down object-center rounded-full"
+                className="h-auto max-w-full rounded-full"
                 alt="me"
                 src="https://i.imgur.com/v3Woky0.jpeg?1"
               />
