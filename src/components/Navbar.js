@@ -17,8 +17,8 @@ function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Socials
+          <a href="https://docs.google.com/document/d/13Bun1D-zWVtauCH253Uu_KBlMeiPMVrQObepIYrJrSA/edit" target="_blank" rel="noopener noreferrer"className="mr-5 hover:text-white">
+            Resume
           </a>
         </nav>
         <a

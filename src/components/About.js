@@ -1,4 +1,6 @@
 import React from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 function About() {
     return (
@@ -24,6 +26,18 @@ function About() {
                   href="#projects"
                   className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                   See My Past Work
+                </a>
+                <a 
+                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                href="https://www.linkedin.com/in/robert-l-johnson-/"
+                target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faLinkedin} className="h-7 w-7"/>
+                </a>
+                <a
+                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+                href="https://github.com/robjawn"
+                target="_blank" rel="noopener noreferrer">
+                  <FontAwesomeIcon icon={faGithub} className="h-7 w-7"/>
                 </a>
               </div>
             </div>
