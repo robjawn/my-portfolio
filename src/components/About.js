@@ -1,6 +1,4 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 function About() {
     return (
@@ -16,7 +14,7 @@ function About() {
                 laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
                 Laborum, voluptas natus?
               </p>
-              <div className="flex justify-center">
+              <div className="md:flex justify-center">
                 <a
                   href="#contact"
                   className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
@@ -26,18 +24,6 @@ function About() {
                   href="#projects"
                   className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
                   See My Past Work
-                </a>
-                <a 
-                className="ml-4 inline-flex justify-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-                href="https://www.linkedin.com/in/robert-l-johnson-/"
-                target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faLinkedin} className="h-full" />
-                </a>
-                <a
-                className="ml-4 inline-flex justify-center text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-                href="https://github.com/robjawn"
-                target="_blank" rel="noopener noreferrer">
-                  <FontAwesomeIcon icon={faGithub} className="h-full"/>
                 </a>
               </div>
             </div>
