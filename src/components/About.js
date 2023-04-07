@@ -10,9 +10,7 @@ function About() {
                 <br className="hidden lg:inline-block" /> Software Developer
               </h1>
               <p className="mb-8 leading-relaxed">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-                laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
-                Laborum, voluptas natus?
+                I specialize in full-stack development to create exceptional digital experiences. 
               </p>
               <div className="md:flex justify-center">
                 <a
